@@ -46,4 +46,4 @@ http://localhost:5173
 ## 🔐 Login Credentials
 
 - **Email**: admin@afbenesia.com
-- **Password**: afbenesia2025
+- **Password**: afbenesia2026

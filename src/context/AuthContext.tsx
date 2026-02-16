@@ -27,7 +27,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   const login = (email: string, password: string): boolean => {
     // Demo credentials - use email instead of username
-    if (email === "admin@afbenesia.com" && password === "afbenesia2025") {
+    if (email === "admin@afbenesia.com" && password === "afbenesia2026") {
       setIsAuthenticated(true);
       localStorage.setItem("afbenesia-auth", "true");
       return true;
