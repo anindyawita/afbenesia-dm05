@@ -1,45 +1,54 @@
-# Kelas Kilat Digital Marketing - Batch 05
+# 🚀 Kelas Kilat Digital Marketing - Batch 05
 
-Website landing page dan dashboard admin untuk program **Kelas Kilat Digital Marketing Batch 05** yang diselenggarakan oleh **Afbenesia - PT Afbe Cahaya Kreatif**.
+Landing page dan sistem dashboard untuk program pelatihan Digital Marketing yang diselenggarakan oleh **AFBENESIA**. Website ini menampilkan informasi lengkap tentang program, mentor, timeline, dan testimoni peserta dengan desain modern dan animasi interaktif.
 
 ## 🚀 Demo Live
 
-- **Live Demo**: [afbenesia-dm05.vercel.app](https://afbenesia-dm05.vercel.app) _(Deploy setelah selesai)_
-- **GitHub Repository**: [github.com/yourusername/afbenesia-dm05](https://github.com/yourusername/afbenesia-dm05)
+- **GitHub Repository**: [github.com/anindyawita/afbenesia-dm05](https://github.com/anindyawita/afbenesia-dm05)
 
-## 📋 Fitur
+## ✨ Fitur Utama
 
 ### Landing Page (Public)
 
-- ✅ Hero section dengan informasi program
-- ✅ Deskripsi lengkap pelatihan
-- ✅ Materi yang akan dipelajari
-- ✅ Informasi pendaftaran lengkap
-- ✅ Responsive design untuk semua device
-- ✅ Modern UI/UX dengan animasi smooth
+- ✅ **Hero Section** dengan full-screen responsive layout
+- ✅ **Gooey Button Animation** dengan spring easing effect
+- ✅ **Orbit Animations** dengan icons (trending & currency)
+- ✅ **Scroll Spy Navigation** - Auto-highlight menu sesuai section
+- ✅ **Mobile Drawer Navigation** dengan hamburger menu
+- ✅ **Stats Counter** dengan animasi counting up
+- ✅ **Mentor Cards** dengan hover effects & gradient borders
+- ✅ **Zigzag Timeline** dengan responsive layout
+- ✅ **Auto-scrolling Testimonials** carousel (right to left)
+- ✅ **Smooth Scroll** ke setiap section dengan scroll padding
+- ✅ **Fully Responsive** - Desktop, Tablet, Mobile optimized
 
 ### Dashboard Admin (Protected)
 
-- ✅ Login system dengan autentikasi
-- ✅ Tabel data peserta lengkap
-- ✅ Auto-generated ID Peserta (Format: AFB-DM05-XXX)
-- ✅ Filter status pembayaran (Lunas/Belum Bayar)
-- ✅ Search peserta (nama, instansi, ID)
-- ✅ Sort by nama/instansi/status
-- ✅ Highlight otomatis untuk "Belum Bayar"
-- ✅ Statistics dashboard (total, lunas, belum bayar, tingkat pembayaran)
-- ✅ Export data ke CSV
-- ✅ Session persistent (tetap login setelah refresh)
-- ✅ Protected routes (hanya admin yang bisa akses)
+- ✅ **Email-based Authentication** dengan password toggle
+- ✅ **Glassmorphic Login Form** dengan back button
+- ✅ **Tabel Data Peserta** dengan scroll horizontal
+- ✅ **Auto-generated ID** (Format: AFB-DM05-XXX)
+- ✅ **Filter Status Pembayaran** (Semua/Lunas/Belum Lunas)
+- ✅ **Highlight Unpaid Rows** dengan background kuning
+- ✅ **Export to CSV** dengan alert validasi
+- ✅ **Statistics Dashboard** (total, lunas, belum bayar, %)
+- ✅ **Protected Routes** dengan AuthContext
+- ✅ **Session Persistent** menggunakan localStorage
 
-## 🛠️ Teknologi
+## 🛠️ Tech Stack
 
-- **React 18** - UI Library
-- **TypeScript** - Type Safety
-- **Vite** - Build Tool & Dev Server
-- **React Router v6** - Routing & Navigation
-- **CSS3** - Styling dengan Flexbox & Grid
-- **LocalStorage** - Session Management
+- **React 19.2** - UI Library dengan hooks
+- **TypeScript** - Type-safe development
+- **Vite (Rolldown)** - Ultra-fast build tool & dev server
+- **React Router DOM 7** - Client-side routing & navigation
+- **Iconify React** - 200,000+ icons ready to use
+- **CSS3 Advanced**:
+  - CSS `@property` untuk custom animasi properties
+  - SVG Filters untuk gooey/blob effects
+  - Flexbox & Grid layouts
+  - CSS Variables untuk theming
+  - Keyframe animations
+  - Media queries untuk responsiveness
 
 ## 📁 Struktur Project
 
@@ -68,79 +77,92 @@ afbenesia-dm05/
 └── README.md
 ```
 
+## � Prerequisites
+
+Pastikan sudah terinstall:
+- **Node.js** (v16 atau lebih tinggi)
+- **npm** atau **yarn**
+
 ## 🚀 Cara Menjalankan Project
 
-### Prerequisites
-
-- Node.js (v18 atau lebih baru)
-- npm atau yarn
-
-### Installation
-
-1. **Clone repository**
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/afbenesia-dm05.git
+git clone https://github.com/anindyawita/afbenesia-dm05.git
 cd afbenesia-dm05
 ```
 
-2. **Install dependencies**
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-3. **Run development server**
+### 3. Jalankan Development Server
 
 ```bash
 npm run dev
 ```
 
-4. **Buka browser**
+Server akan berjalan di `http://localhost:5173`
 
-```
-http://localhost:5173
-```
-
-### Build untuk Production
+### 4. Build untuk Production
 
 ```bash
 npm run build
 ```
 
-File hasil build akan ada di folder `dist/`
+Hasil build akan ada di folder `dist/`
 
-### Preview build production
+### 5. Preview Production Build
 
 ```bash
 npm run preview
 ```
 
-## 🔐 Demo Credentials
+## 🔐 Login Credentials
 
 Untuk mengakses dashboard admin:
-
-- **Username**: `admin`
-- **Password**: `afbenesia2025`
+- **Email:** `admin@afbenesia.com`
+- **Password:** `afbenesia2025`
 
 ## 📊 Data Peserta
 
 Project ini menggunakan **15 data dummy peserta** dengan informasi:
-
-- ID Peserta (Auto-generated: AFB-DM05-001, AFB-DM05-002, dst.)
+- ID Peserta (Auto-generated: AFB-DM05-001 s/d AFB-DM05-015)
 - Nama Peserta
 - Instansi/Kategori
 - Status Pembayaran (Lunas/Belum Bayar)
 
 ## 🎨 Fitur UI/UX
 
-- Modern gradient design
-- Smooth animations & transitions
-- Responsive layout (Mobile, Tablet, Desktop)
-- Hover effects
-- Floating cards animation
-- Professional color scheme
-- Clean typography
+### Animasi & Effects
+- **Gooey Button** dengan CSS `@property` dan spring easing
+- **Orbit Circles** yang rotate dengan icons
+- **Fade In Up** untuk text animations
+- **Counter Animation** untuk statistics
+- **Hover Effects** pada cards dengan transform & shadow
+- **Smooth Transitions** di semua interaksi
+- **Drawer Slide-in** animation dari kanan
+
+### Responsive Design
+- **Desktop (>968px)**: Full layout dengan navbar centered
+- **Tablet (640-968px)**: Adjusted spacing & font sizes
+- **Mobile (<640px)**: Drawer navigation, stacked layout, optimized images
+- **Small Mobile (<480px)**: Extra compact design
+
+### Color Palette
+- **Primary Blue**: #0284c7, #0ea5e9, #0369a1
+- **Yellow/Gold**: #fbbf24, #f59e0b
+- **Accent Orange**: #e44002
+- **Success Green**: #3ecd5e
+- **Background**: Gradients & rgba overlays
+
+### Typography
+- **Poppins**: Primary UI font (400, 500, 600, 700)
+- **Lato**: Body text
+- **Montserrat**: Headers alternatif
+- **Open Sans**: Supporting text
 
 ## 📝 Informasi Program
 
@@ -149,59 +171,93 @@ Project ini menggunakan **15 data dummy peserta** dengan informasi:
 - **Tanggal**: 18 Oktober 2025
 - **Penyelenggara**: Afbenesia - PT Afbe Cahaya Kreatif
 
-## 🚀 Deploy ke Vercel
-
-1. **Push ke GitHub**
+## 🎯 Scripts Available
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin your-repo-url
-git push -u origin main
+npm run dev      # Start development server (port 5173)
+npm run build    # Build for production (output: dist/)
+npm run preview  # Preview production build locally
+npm run lint     # Run ESLint untuk check code quality
 ```
 
-2. **Deploy dengan Vercel**
+## 🌐 Deployment
+
+Project ini dapat di-deploy ke berbagai platform:
+
+### Deploy ke Vercel (Recommended)
+
+1. **Push ke GitHub** (sudah selesai)
+
+2. **Connect to Vercel**
    - Kunjungi [vercel.com](https://vercel.com)
-   - Import repository GitHub
+   - Import repository dari GitHub
    - Vercel akan auto-detect Vite project
    - Click "Deploy"
-   - Selesai! 🎉
 
 **Build Settings (Auto-detected)**:
-
 - Framework Preset: `Vite`
 - Build Command: `npm run build`
 - Output Directory: `dist`
+
+### Platform Lain
+- **Netlify**: Drag & drop folder `dist` atau connect GitHub
+- **GitHub Pages**: Gunakan `gh-pages` package
+- **Railway**: Auto-deploy dari GitHub
+- **Cloudflare Pages**: Connect repository
 
 ## 📦 Dependencies
 
 ```json
 {
-  "react": "^18.3.1",
-  "react-dom": "^18.3.1",
-  "react-router-dom": "^7.1.3"
+  "dependencies": {
+    "@iconify/react": "^6.0.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.2.5",
+    "eslint": "^9.39.1"
+  }
 }
 ```
 
 ## 👨‍💻 Developer
 
-**Nama**: [Nama Anda]  
-**Email**: [email@example.com]  
-**GitHub**: [github.com/yourusername]
+**AFBENESIA** - PT Afbe Cahaya Kreatif
+- Program: Kelas Kilat Digital Marketing Batch 05
+- GitHub: [github.com/anindyawita](https://github.com/anindyawita)
+
+## 📝 Informasi Program
+
+- **Nama Program**: Kelas Kilat Digital Marketing
+- **Batch**: DM-05
+- **Penyelenggara**: AFBENESIA - PT Afbe Cahaya Kreatif
+
+## 🚀 Features Roadmap
+
+- [x] Landing page dengan animasi modern
+- [x] Mobile responsive dengan drawer navigation
+- [x] Scroll spy untuk navigation
+- [x] Authentication system
+- [x] Dashboard dengan filter & export
+- [ ] Email notification system
+- [ ] Payment gateway integration
+- [ ] Multi-language support
+- [ ] Dark mode toggle
 
 ## 📄 License
 
-Free to use for selection purpose.
+© 2025 Kelas Kilat Digital Marketing - AFBENESIA. All rights reserved.
 
 ## 🙏 Acknowledgments
 
-- PT Afbe Cahaya Kreatif untuk kesempatan seleksi
 - React Team untuk amazing library
-- Vite Team untuk blazing fast build tool
+- Vite/Rolldown Team untuk blazing fast build tool
+- Iconify untuk comprehensive icon library
 
 ---
 
-**© 2025 Afbenesia - PT Afbe Cahaya Kreatif**
-
-Dibuat dengan ❤️ untuk seleksi Web Developer
+**Dibuat dengan ❤️ untuk Kelas Kilat Digital Marketing Batch 05**
