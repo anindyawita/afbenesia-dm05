@@ -385,7 +385,7 @@ const LandingPage: React.FC = () => {
 
         <div className="features-container ag-courses_box">
           <div className="feature-card ag-courses_item">
-            <a href="#" className="ag-courses-item_link">
+            <div className="ag-courses-item_link">
               <div className="ag-courses-item_bg"></div>
               <div className="ag-courses-item_title">Practical Skills</div>
               <div className="ag-courses-item_date-box">
@@ -393,11 +393,11 @@ const LandingPage: React.FC = () => {
                 <span className="ag-courses-item_date">praktis</span> yang
                 langsung bisa diterapkan dalam dunia kerja dan bisnis digital.
               </div>
-            </a>
+            </div>
           </div>
 
           <div className="feature-card ag-courses_item">
-            <a href="#" className="ag-courses-item_link">
+            <div className="ag-courses-item_link">
               <div className="ag-courses-item_bg"></div>
               <div className="ag-courses-item_title">Expert Mentors</div>
               <div className="ag-courses-item_date-box">
@@ -407,11 +407,11 @@ const LandingPage: React.FC = () => {
                 </span>{" "}
                 yang ahli di bidang digital marketing.
               </div>
-            </a>
+            </div>
           </div>
 
           <div className="feature-card ag-courses_item">
-            <a href="#" className="ag-courses-item_link">
+            <div className="ag-courses-item_link">
               <div className="ag-courses-item_bg"></div>
               <div className="ag-courses-item_title">Career Growth</div>
               <div className="ag-courses-item_date-box">
@@ -419,7 +419,7 @@ const LandingPage: React.FC = () => {
                 <span className="ag-courses-item_date">tingkatkan karir</span>{" "}
                 Anda di industri digital marketing yang terus berkembang.
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -636,16 +636,20 @@ const LandingPage: React.FC = () => {
               berkelanjutan.
             </p>
             <div className="footer-social">
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/afbenesia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <Icon icon="mdi:instagram" width="20" />
               </a>
-              <a href="#" aria-label="Facebook">
-                <Icon icon="mdi:facebook" width="20" />
-              </a>
-              <a href="#" aria-label="Twitter">
-                <Icon icon="mdi:twitter" width="20" />
-              </a>
-              <a href="#" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/afbenesia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <Icon icon="mdi:linkedin" width="20" />
               </a>
             </div>
